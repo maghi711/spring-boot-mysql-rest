@@ -1,0 +1,13 @@
+# Change the port to 7111
+server:
+  port: 7111
+
+# Database credentials
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/aadavan_products
+    username: aadavan
+    password: Aadavan@1234
+  jpa:
+    show-sql: true
